@@ -901,7 +901,7 @@ div .container1 {
 
 /* Media */
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 1000px) {
 	.fix {
 		width: 100%;
 	}
