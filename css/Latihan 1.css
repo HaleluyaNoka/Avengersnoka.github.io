@@ -898,3 +898,61 @@ div .container1 {
 		opacity: 1;
 	}
 }
+
+/* Media */
+
+@media only screen and (max-width: 768px) {
+	.fix {
+		width: 100%;
+	}
+
+	.fix ul li {
+		font-size: 30px;
+	}
+
+
+	/* Show */
+
+	.show {
+		width: 100%;
+	}
+
+	.container1 {
+		position: relative;
+		width: 1420px;
+	}
+
+	/* Main */
+
+	.main {
+		width: 1100px;
+	}
+
+	.main2 {
+		position: absolute;
+		top: 1050px;
+		left: 1130px;
+	}
+
+	/* Overlay */
+
+	.overlay img {
+		width: 800px;
+		height: 800px;
+		margin-top: 300px;	}
+
+	.overlay:target .silang {
+		position: fixed;
+		top: 200px;
+		right: 200px;
+		width: 40px;
+		height: 50px;
+	}
+
+	.overlay:target .silang .close {
+		position: fixed;
+		top: 200px;
+		right: 206px;
+		font-size: 50px;	
+	}
+}
