@@ -939,7 +939,7 @@ div .container1 {
 	.overlay img {
 		width: 800px;
 		height: 800px;
-		margin-top: 1800px;	}
+		margin-top: 800px;	}
 
 	.overlay:target .silang {
 		position: fixed;
